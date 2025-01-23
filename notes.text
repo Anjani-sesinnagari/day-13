@@ -1,0 +1,62 @@
+JSON:-
+-JSON stands for javascript object notation
+-JSON is a javascript technique used to transfer the data from the client to server
+SYNTAX:-
+    js object:-
+    let a = {
+        name :"value",
+        age:25
+    }
+- to create json file we have to create a file with extension called 
+             "filename.json".
+1.JSON.stringify() :-it is used to convert JS object into json object
+2.JSON.parse() :-it is used to convert json object into javascript object
+
+-->Asynchronous in javascript:-
+1.setTimeout():- it is web api used to perform async operations with certain timeouts.
+syntax:- setTimeout(callbackfn, timeout);
+
+2.setInterval():- it is a web api used to perform async operations at 
+syntax:- setInterval(callbackfn, timeout);
+
+3.promise:- promise is an object which reprsents eventual completion or failure
+         states of promise:-
+         1.pending states
+         2.fulfilled states
+         3.rejected states
+SYNTAX:- let x = new Promise((resolve , reject)=>{});
+         to execute the promise we have instance methods:-
+          1.then() :- it is used to execute success or fulfilled state results.
+          2.catch() :- it is used to execute rejected state results.
+
+4.async & await:
+async: keyword converts synchronous function into Asynchronous function and starts the promise.
+
+await: keyword make the dunction to wait until promise complete
+
+note: await keyword always used along with async keyword.
+
+note:- javascriptis bydeafult "synchronous(single threaded)"
+
+DOM:-
+- DOM stands for document object model
+- DOM is a web API is used to manipulate the html content
+- it is used to add,remove,update the content in the html document
+DOM METHODS:-
+1.document.getElementById("");
+it is used to select html element based on "id attribute" value.
+
+2.document.getElementByClassName("");
+it is used to select html element based on "class attribute" value.
+-with class attribute we can select multiple elements.
+
+3.document.getElementByTagName("");
+it is used to select html element based on their tag names.
+
+4.document.getElementByName("");
+it is used to select html element based on "name attributes"
+
+below methods are used to select html elements based on "css selectors".
+5.document.querySelector(""); this is used to select only one element.
+6.document.querySelectorAll(); this is used to select only o
+

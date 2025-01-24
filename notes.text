@@ -58,5 +58,15 @@ it is used to select html element based on "name attributes"
 
 below methods are used to select html elements based on "css selectors".
 5.document.querySelector(""); this is used to select only one element.
-6.document.querySelectorAll(); this is used to select only o
+6.document.querySelectorAll(); this is used to select multiplr elements
 
+Events in DOM:-
+
+-events are nothing but an actions performed on the html element.
+- in dom, we have events like click events, mouse events and key events
+
+click evenets :- onclick , ondblclick , onsubmit , onchange .
+
+mouse events :- mouseover , mouseleave
+
+key events :- keydown , keyup , keypress(deprocated).

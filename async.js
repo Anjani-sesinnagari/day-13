@@ -82,9 +82,9 @@
 
 //demo();
 
-async function fetchUsers(){
-    let response =await fetch("https://api.github.com/users");
-    let data =await response.json();
-    console.log(data);
-}
-fetchUsers()
+//async function fetchUsers(){
+  //  let response =await fetch("https://api.github.com/users");
+    //let data =await response.json();
+    //console.log(data);
+//}
+//fetchUsers()

@@ -70,3 +70,11 @@ click evenets :- onclick , ondblclick , onsubmit , onchange .
 mouse events :- mouseover , mouseleave
 
 key events :- keydown , keyup , keypress(deprocated).
+
+Dynamic creation of html element in js:
+- to create  html element in javascript , we use a method called "document.createElement()"
+- by defualt elements created in js will not added to the document, so we have to add them explicitly by using a method called as "appendChild()"
+
+- to set the attributes we can use a method called as "setAttribute()".
+
+- to remove attribute we have  method "removeAttribute()"

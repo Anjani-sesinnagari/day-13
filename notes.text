@@ -78,3 +78,4 @@ Dynamic creation of html element in js:
 - to set the attributes we can use a method called as "setAttribute()".
 
 - to remove attribute we have  method "removeAttribute()"
+

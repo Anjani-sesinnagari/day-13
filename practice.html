@@ -1,0 +1,87 @@
+<!-- take array of objects where each object contains emp id , emp name, emp company, emp salary and emp address where emp address further contains an object which includes two properties such as emp city, area. 
+display all these employee data's on the ui through java script  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" cellpadding ="10px" cellspacing = "0px">
+        <thead>
+            <th>sno</th>
+            <th>sal</th>
+            <th>company</th>
+            <th>city</th>
+            <th>state</th>
+        </thead>
+        <tbody id="table">
+
+        </tbody>
+    </table>
+    <script>
+        
+let employees = [
+{
+    empid: 1,
+    empsal:2000,
+    company: "google",
+    address : [{
+        city: "a",
+        state : "t"
+    }]
+},
+{
+    empid: 2,
+    empsal:2000,
+    company: "google",
+    address : [{
+        city: "a",
+        state : "t"
+    }]
+},{
+    empid: 3,
+    empsal:2000,
+    company: "google",
+    address : [{
+        city: "a",
+        state : "t"
+    }]
+},{
+    empid: 4,
+    empsal:2000,
+    company: "google",
+    address : [{
+        city: "a",
+        state : "t"
+    }]
+},
+{
+    empid: 5,
+    empsal:2000,
+    company: "google",
+    address : [{
+        city: "a",
+        state : "t"
+    }]
+}
+]
+
+employees.map(Element =>{
+    let table = document.getElementById("table")
+    table.innerHTML += `
+    <tr>
+        <td>${Element.empid}</td>
+        <td>${Element.empsal}</td>
+        <td>${Element.company}</td>
+        <td>${Element.address.city}</td>
+        <td>${Element.address.state}</td>
+
+    </tr>
+    `
+})
+    </script>
+</body>
+</html>

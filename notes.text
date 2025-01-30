@@ -79,3 +79,20 @@ Dynamic creation of html element in js:
 
 - to remove attribute we have  method "removeAttribute()"
 
+Modules:
+import/exports to your code
+1.named Modules
+2.defualt modules
+
+Form validations: Validations are like checkers for values that user enters in each field in your form.
+
+
+
+(Q) Create a signup form that contains 
+username(!empty)
+email(@, !empty)
+password(should be 6) and
+confirm password(same, !empty)
+once you click on the submit button, a alert should be popped up on your screen
+"form is submitted successfully" if and only if all the validations are correct
+

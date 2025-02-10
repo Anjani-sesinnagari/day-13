@@ -1,0 +1,31 @@
+prop:
+props is an object
+props is nothing but properties.
+props is similar to html attributes
+prop is a immutable object
+props is an object used to exchange the information/ data from parent component to child component
+syntax:- <Child username="Sam"/>
+
+props.children:- it is a special type of prop used to pass some information
+
+state:-
+it is an object which is used to store the data inside the component
+
+functional based component:-
+functional component is a stateless by default untill raect v16.8
+later functional component becomes statefull with the help of "Hooks" concept
+
+Hooks:-
+hooks are nothing but a function which implemented all the features of class based component
+
+basic hooks are:
+1.useState()
+2.useEffect()
+3.useContext()
+
+Controlled Form elements or Controlled Components:-
+form handling
+<form>
+Lists and Keys():-
+when 
+this hook allows developers to app
